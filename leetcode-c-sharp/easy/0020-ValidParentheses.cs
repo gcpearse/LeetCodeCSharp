@@ -72,36 +72,3 @@ Input: s = "(]"
 Output: false
 
 */
-
-// char[] openers = ['(', '[', '{'];
-// char[] closers = [')', ']', '}'];
-
-// Stack<char> stack = [];
-
-// foreach (char bracket in s)
-// {
-//   if (Array.IndexOf(openers, bracket) != -1)
-//   {
-//     stack.Push(bracket);
-//   }
-//   else if (stack.Count == 0 && Array.IndexOf(closers, bracket) != -1)
-//   {
-//     return false;
-//   }
-//   else
-//   {
-//     if (stack.Count > 0)
-//     {
-//       if (Array.IndexOf(closers, bracket) == Array.IndexOf(openers, stack.Peek()))
-//       {
-//         stack.Pop();
-//       }
-//       else
-//       {
-//         return false;
-//       }
-//     }
-//   }
-// }
-
-// return stack.Count == 0;
