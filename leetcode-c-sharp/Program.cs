@@ -22,6 +22,7 @@ class Program
       case "9": PalindromeNumber.Solution.Test(); break;
       case "13": RomanToInteger.Solution.Test(); break;
       case "14": LongestCommonPrefix.Solution.Test(); break;
+      case "20": ValidParentheses.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
