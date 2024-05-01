@@ -9,6 +9,7 @@
         switch (args[0])
         {
           case "1": TwoSum.Solution.Test(); break;
+          case "9": PalindromeNumber.Solution.Test(); break;
 
           default: Console.WriteLine("Invalid argument."); break;
         }
