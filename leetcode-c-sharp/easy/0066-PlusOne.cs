@@ -6,53 +6,43 @@ public class Solution
   {
     List<int> result = [];
 
+    if (digits.All(digit => digit == 9))
+    {
+      foreach (int digit in digits)
+      {
+        result.Insert(0, 0);
+      }
+      result.Insert(0, 1);
+      return [.. result];
+    }
+
+    if (digits[^1] != 9)
+    {
+      result = [.. digits];
+      result[^1]++;
+      return [.. result];
+    }
+
     bool toggle = true;
 
-    if (digits[^1] == 9)
+    for (int i = digits.Length - 1; i >= 0; i--)
     {
-      for (int i = digits.Length - 1; i >= 0; i--)
+      if (toggle && digits[i] == 9)
       {
-        if (digits[i] == 9)
+        result.Insert(0, 0);
+      }
+      else
+      {
+        if (toggle)
         {
-          if (toggle)
-          {
-            result.Insert(0, 0);
-          }
-          else
-          {
-            result.Insert(0, digits[i]);
-          }
+          result.Insert(0, digits[i] + 1);
         }
         else
         {
-          toggle = false;
-
-          int[] slice = digits[(i + 1)..digits.Length];
-          
-          if (slice.All(digit => digit == 9))
-          {
-            result.Insert(0, digits[i] + 1);
-          }
-          else
-          {
-            result.Insert(0, digits[i]);
-          }
+          result.Insert(0, digits[i]);
         }
+        toggle = false;
       }
-    }
-    else
-    {
-      result.Insert(0, digits[^1] + 1);
-      
-      for (int i = digits.Length - 2; i >= 0; i--)
-      {
-        result.Insert(0, digits[i]);
-      }
-    }
-
-    if (result[0] == 0)
-    {
-      result.Insert(0, 1);
     }
 
     return [.. result];
