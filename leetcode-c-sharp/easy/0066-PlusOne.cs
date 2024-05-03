@@ -26,7 +26,9 @@ public class Solution
         else
         {
           toggle = false;
+
           int[] slice = digits[(i + 1)..digits.Length];
+          
           if (slice.All(digit => digit == 9))
           {
             result.Insert(0, digits[i] + 1);
@@ -41,6 +43,7 @@ public class Solution
     else
     {
       result.Insert(0, digits[^1] + 1);
+      
       for (int i = digits.Length - 2; i >= 0; i--)
       {
         result.Insert(0, digits[i]);
