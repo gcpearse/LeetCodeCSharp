@@ -27,6 +27,7 @@ class Program
       case "35": SearchInsertPosition.Solution.Test(); break;
       case "58": LengthOfLastWord.Solution.Test(); break;
       case "66": PlusOne.Solution.Test(); break;
+      case "121": BestTimeToBuyAndSellStock.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
