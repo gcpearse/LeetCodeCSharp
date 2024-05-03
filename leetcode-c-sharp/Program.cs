@@ -26,6 +26,7 @@ class Program
       case "28": FindFirstOccurrence.Solution.Test(); break;
       case "35": SearchInsertPosition.Solution.Test(); break;
       case "58": LengthOfLastWord.Solution.Test(); break;
+      case "66": PlusOne.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
