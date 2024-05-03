@@ -4,18 +4,19 @@ public class Solution
 {
   public static int MaxProfit(int[] prices)
   {
-    int minPrice = prices[0];
+    int lowestPrice = prices[0];
     int profit = 0;
 
     for (int i = 1; i < prices.Length; i++)
     {
-      if (prices[i] < minPrice)
+      if (prices[i] < lowestPrice)
       {
-        minPrice = prices[i];
+        lowestPrice = prices[i];
       }
-      if (prices[i] - minPrice > profit)
+
+      if (prices[i] - lowestPrice > profit)
       {
-        profit = prices[i] - minPrice;
+        profit = prices[i] - lowestPrice;
       }
     }
 
