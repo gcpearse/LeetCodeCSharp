@@ -29,6 +29,7 @@ class Program
       case "66": PlusOne.Solution.Test(); break;
       case "121": BestTimeToBuyAndSellStock.Solution.Test(); break;
       case "125": ValidPalindrome.Solution.Test(); break;
+      case "136": SingleNumber.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
