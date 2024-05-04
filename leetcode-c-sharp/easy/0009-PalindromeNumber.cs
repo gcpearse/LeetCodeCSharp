@@ -6,11 +6,18 @@ public class Solution
   {
     string str = Convert.ToString(x);
 
-    char[] chars = str.ToCharArray();
-    Array.Reverse(chars);
-    string reverseX = new(chars);
+    int left = 0;
+    int right = str.Length - 1;
 
-    return str == reverseX;
+    while (left <= right)
+    {
+      if (str[left] != str[right]) return false;
+
+      left++;
+      right--;
+    }
+
+    return true;
   }
 
   public static void Test()
