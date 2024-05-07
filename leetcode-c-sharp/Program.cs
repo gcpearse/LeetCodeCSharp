@@ -30,6 +30,11 @@ class Program
       case "121": BestTimeToBuyAndSellStock.Solution.Test(); break;
       case "125": ValidPalindrome.Solution.Test(); break;
       case "136": SingleNumber.Solution.Test(); break;
+      case "168": ExcelSheetColumnTitle.Solution.Test(); break;
+      case "169": MajorityElement.Solution.Test(); break;
+      case "171": ExcelSheetColumnNumber.Solution.Test(); break;
+      case "217": ContainsDuplicate.Solution.Test(); break;
+      case "231": IsPowerOfTwo.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
