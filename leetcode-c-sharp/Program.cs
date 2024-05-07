@@ -35,6 +35,7 @@ class Program
       case "171": ExcelSheetColumnNumber.Solution.Test(); break;
       case "217": ContainsDuplicate.Solution.Test(); break;
       case "231": IsPowerOfTwo.Solution.Test(); break;
+      case "242": ValidAnagram.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
