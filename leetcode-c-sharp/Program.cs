@@ -38,6 +38,7 @@ class Program
       case "242": ValidAnagram.Solution.Test(); break;
       case "258": AddDigits.Solution.Test(); break;
       case "268": MissingNumber.Solution.Test(); break;
+      case "290": WordPattern.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
