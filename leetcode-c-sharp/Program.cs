@@ -40,6 +40,7 @@ class Program
       case "268": MissingNumber.Solution.Test(); break;
       case "290": WordPattern.Solution.Test(); break;
       case "326": PowerOfThree.Solution.Test(); break;
+      case "342": PowerOfFour.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
