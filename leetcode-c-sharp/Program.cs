@@ -41,6 +41,7 @@ class Program
       case "290": WordPattern.Solution.Test(); break;
       case "326": PowerOfThree.Solution.Test(); break;
       case "342": PowerOfFour.Solution.Test(); break;
+      case "345": ReverseVowelsOfString.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
