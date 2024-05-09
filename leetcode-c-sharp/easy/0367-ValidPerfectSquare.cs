@@ -10,12 +10,13 @@ public class Solution
     while (left <= right)
     {
       long middle = (left + right) / 2;
+      long square = middle * middle;
 
-      if (middle * middle < num)
+      if (square < num)
       {
         left = middle + 1;
       }
-      else if (middle * middle > num)
+      else if (square > num)
       {
         right = middle - 1;
       }
