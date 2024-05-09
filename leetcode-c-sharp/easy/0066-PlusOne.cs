@@ -50,19 +50,19 @@ public class Solution
 
   public static void Test()
   {
-    Console.WriteLine(string.Join(" ", PlusOne([1, 2, 3])));
+    Console.WriteLine($"[{string.Join(", ", PlusOne([1, 2, 3]))}]");
     // [1, 2, 4]
-    Console.WriteLine(string.Join(" ", PlusOne([4, 3, 2, 1])));
+    Console.WriteLine($"[{string.Join(", ", PlusOne([4, 3, 2, 1]))}]");
     // [4, 3, 2, 2]
-    Console.WriteLine(string.Join(" ", PlusOne([9])));
+    Console.WriteLine($"[{string.Join(", ", PlusOne([9]))}]");
     // [1, 0]   
-    Console.WriteLine(string.Join(" ", PlusOne([9, 9])));
+    Console.WriteLine($"[{string.Join(", ", PlusOne([9, 9]))}]");
     // [1, 0, 0]   
-    Console.WriteLine(string.Join(" ", PlusOne([9, 9, 9])));
+    Console.WriteLine($"[{string.Join(", ", PlusOne([9, 9, 9]))}]");
     // [1, 0, 0, 0] 
-    Console.WriteLine(string.Join(" ", PlusOne([2, 3, 9, 9])));
+    Console.WriteLine($"[{string.Join(", ", PlusOne([2, 3, 9, 9]))}]");
     // [2, 4, 0, 0]     
-    Console.WriteLine(string.Join(" ", PlusOne([9, 8, 9])));
+    Console.WriteLine($"[{string.Join(", ", PlusOne([9, 8, 9]))}]");
     // [9, 9, 0]  
   }
 }
