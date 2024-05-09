@@ -9,9 +9,9 @@ public class Solution
 
   public static void Test()
   {
-    Console.WriteLine(Intersection([1, 2, 2, 1], [2, 2]));
+    Console.WriteLine($"[{string.Join(", ", Intersection([1, 2, 2, 1], [2, 2]))}]");
     // [2]
-    Console.WriteLine(Intersection([4, 9, 5], [9, 4, 9, 8, 4]));
+    Console.WriteLine($"[{string.Join(", ", Intersection([4, 9, 5], [9, 4, 9, 8, 4]))}]");
     // [9, 4] or [4, 9]
   }
 }
