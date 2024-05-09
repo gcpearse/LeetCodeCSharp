@@ -42,6 +42,7 @@ class Program
       case "326": PowerOfThree.Solution.Test(); break;
       case "342": PowerOfFour.Solution.Test(); break;
       case "345": ReverseVowelsOfString.Solution.Test(); break;
+      case "349": IntersectionOfTwoArrays.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
