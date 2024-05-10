@@ -44,6 +44,7 @@ class Program
       case "345": ReverseVowelsOfString.Solution.Test(); break;
       case "349": IntersectionOfTwoArrays.Solution.Test(); break;
       case "367": ValidPerfectSquare.Solution.Test(); break;
+      case "383": RansomNote.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
