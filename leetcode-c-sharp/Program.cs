@@ -45,6 +45,10 @@ class Program
       case "349": IntersectionOfTwoArrays.Solution.Test(); break;
       case "367": ValidPerfectSquare.Solution.Test(); break;
       case "383": RansomNote.Solution.Test(); break;
+      case "387": FirstUniqueCharacterInString.Solution.Test(); break;
+      case "389": FindTheDifference.Solution.Test(); break;
+      case "392": IsSubsequence.Solution.Test(); break;
+      case "409": LongestPalindrome.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
