@@ -49,6 +49,7 @@ class Program
       case "389": FindTheDifference.Solution.Test(); break;
       case "392": IsSubsequence.Solution.Test(); break;
       case "409": LongestPalindrome.Solution.Test(); break;
+      case "412": FizzBuzz.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
