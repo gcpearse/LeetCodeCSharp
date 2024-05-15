@@ -50,6 +50,7 @@ class Program
       case "392": IsSubsequence.Solution.Test(); break;
       case "409": LongestPalindrome.Solution.Test(); break;
       case "412": FizzBuzz.Solution.Test(); break;
+      case "414": ThirdMaximumNumber.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
