@@ -52,6 +52,7 @@ class Program
       case "412": FizzBuzz.Solution.Test(); break;
       case "414": ThirdMaximumNumber.Solution.Test(); break;
       case "434": NumberOfSegmentsInString.Solution.Test(); break;
+      case "441": ArrangingCoins.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
