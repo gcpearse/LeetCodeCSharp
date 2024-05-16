@@ -53,6 +53,7 @@ class Program
       case "414": ThirdMaximumNumber.Solution.Test(); break;
       case "434": NumberOfSegmentsInString.Solution.Test(); break;
       case "441": ArrangingCoins.Solution.Test(); break;
+      case "448": FindAllNumbersDisappearedInAnArray.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
