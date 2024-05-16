@@ -6,7 +6,7 @@ public class Solution
   {
     int row = 0;
 
-    while (n - row >= 0)
+    while (n >= row)
     {
       n -= row;
       row++;
