@@ -55,6 +55,7 @@ class Program
       case "441": ArrangingCoins.Solution.Test(); break;
       case "448": FindAllNumbersDisappearedInAnArray.Solution.Test(); break;
       case "455": AssignCookies.Solution.Test(); break;
+      case "482": LicenseKeyFormatting.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
