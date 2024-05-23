@@ -57,6 +57,7 @@ class Program
       case "455": AssignCookies.Solution.Test(); break;
       case "482": LicenseKeyFormatting.Solution.Test(); break;
       case "485": MaxConsecutiveOnes.Solution.Test(); break;
+      case "495": TeemoAttacking.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
