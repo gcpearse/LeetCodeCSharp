@@ -58,6 +58,9 @@ class Program
       case "482": LicenseKeyFormatting.Solution.Test(); break;
       case "485": MaxConsecutiveOnes.Solution.Test(); break;
       case "495": TeemoAttacking.Solution.Test(); break;
+      case "496": NextGreaterElement.Solution.Test(); break;
+      case "500": KeyboardRow.Solution.Test(); break;
+      case "506": RelativeRanks.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
