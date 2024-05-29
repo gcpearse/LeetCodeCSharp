@@ -62,6 +62,7 @@ class Program
       case "500": KeyboardRow.Solution.Test(); break;
       case "506": RelativeRanks.Solution.Test(); break;
       case "520": DetectCapital.Solution.Test(); break;
+      case "551": StudentAttendanceRecordI.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
