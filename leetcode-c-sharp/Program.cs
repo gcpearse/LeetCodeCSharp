@@ -63,6 +63,7 @@ class Program
       case "506": RelativeRanks.Solution.Test(); break;
       case "520": DetectCapital.Solution.Test(); break;
       case "551": StudentAttendanceRecordI.Solution.Test(); break;
+      case "557": ReverseWordsInAStringIII.Solution.Test(); break;
 
       default: Console.WriteLine("Invalid argument."); break;
     }
