@@ -4,16 +4,17 @@ public class Solution
 {
   public static int SearchInsert(int[] nums, int target)
   {
-    int result = 0;
+    if (target < nums[0]) return 0;
+    if (target > nums[^1]) return nums.Length;
 
-    if (target < nums[0]) return result;
-    if (target > nums[^1]) result = nums.Length;
+    int result = 0;
 
     for (int i = 0; i < nums.Length - 1; i++)
     {
       if (target > nums[i] && target <= nums[i + 1])
       {
         result = i + 1;
+        break;
       }
     }
 
