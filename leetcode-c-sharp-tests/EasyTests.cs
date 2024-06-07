@@ -305,4 +305,77 @@ public class Tests
     Assert.Equal(1, AssignCookies.Solution.FindContentChildren([1, 2, 3], [1, 1]));
     Assert.Equal(2, AssignCookies.Solution.FindContentChildren([1, 2], [1, 2, 3]));
   }
+
+  [Fact]
+  public void LicenseKeyFormattingTest()
+  {
+    Assert.Equal("5F3Z-2E9W", LicenseKeyFormatting.Solution.LicenseKeyFormatting("5F3Z-2e-9-w", 4));
+    Assert.Equal("2-5G-3J", LicenseKeyFormatting.Solution.LicenseKeyFormatting("2-5g-3-J", 2));
+    Assert.Equal("AA-AA", LicenseKeyFormatting.Solution.LicenseKeyFormatting("--a-a-a-a--", 2));
+  }
+
+  [Fact]
+  public void FindMaxConsecutiveOnesTest()
+  {
+    Assert.Equal(3, MaxConsecutiveOnes.Solution.FindMaxConsecutiveOnes([1, 1, 0, 1, 1, 1]));
+    Assert.Equal(2, MaxConsecutiveOnes.Solution.FindMaxConsecutiveOnes([1, 0, 1, 1, 0, 1]));
+  }
+
+  [Fact]
+  public void FindPoisonedDurationTest()
+  {
+    Assert.Equal(4, TeemoAttacking.Solution.FindPoisonedDuration([1, 4], 2));
+    Assert.Equal(3, TeemoAttacking.Solution.FindPoisonedDuration([1, 2], 2));
+  }
+
+  [Fact]
+  public void NextGreaterElementTest()
+  {
+    Assert.Equal([-1, 3, -1], NextGreaterElement.Solution.NextGreaterElement([4, 1, 2], [1, 3, 4, 2]));
+    Assert.Equal([3, -1], NextGreaterElement.Solution.NextGreaterElement([2, 4], [1, 2, 3, 4]));
+  }
+
+  [Fact]
+  public void FindWordsTest()
+  {
+    Assert.Equal(["Alaska", "Dad"], KeyboardRow.Solution.FindWords(["Hello", "Alaska", "Dad", "Peace"]));
+    Assert.Equal([], KeyboardRow.Solution.FindWords(["omk"]));
+    Assert.Equal(["adsdf", "sfd"], KeyboardRow.Solution.FindWords(["adsdf", "sfd"]));
+  }
+
+  [Fact]
+  public void FindRelativeRanksTest()
+  {
+    Assert.Equal(["Gold Medal", "Silver Medal", "Bronze Medal", "4", "5"], RelativeRanks.Solution.FindRelativeRanks([5, 4, 3, 2, 1]));
+    Assert.Equal(["Gold Medal", "5", "Bronze Medal", "Silver Medal", "4"], RelativeRanks.Solution.FindRelativeRanks([10, 3, 8, 9, 4]));
+  }
+
+  [Fact]
+  public void DetectCapitalUseTest()
+  {
+    Assert.True(DetectCapital.Solution.DetectCapitalUse("USA"));
+    Assert.False(DetectCapital.Solution.DetectCapitalUse("FlaG"));
+  }
+
+  [Fact]
+  public void CheckRecordTest()
+  {
+    Assert.True(StudentAttendanceRecordI.Solution.CheckRecord("PPALLP"));
+    Assert.False(StudentAttendanceRecordI.Solution.CheckRecord("PPALLL"));
+  }
+
+  [Fact]
+  public void ReverseWordsTest()
+  {
+    Assert.Equal("s'teL ekat edoCteeL tsetnoc", ReverseWordsInAStringIII.Solution.ReverseWords("Let's take LeetCode contest"));
+    Assert.Equal("rM gniD", ReverseWordsInAStringIII.Solution.ReverseWords("Mr Ding"));
+  }
+
+  [Fact]
+  public void DistributeCandiesTest()
+  {
+    Assert.Equal(3, DistributeCandies.Solution.DistributeCandies([1, 1, 2, 2, 3, 3]));
+    Assert.Equal(2, DistributeCandies.Solution.DistributeCandies([1, 1, 2, 3]));
+    Assert.Equal(1, DistributeCandies.Solution.DistributeCandies([6, 6, 6, 6]));
+  }
 }
