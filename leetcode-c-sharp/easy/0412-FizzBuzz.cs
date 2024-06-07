@@ -28,13 +28,6 @@ public class Solution
 
     return fizzBuzz;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine($"[{string.Join(", ", FizzBuzz(3))}]");
-    Console.WriteLine($"[{string.Join(", ", FizzBuzz(5))}]");
-    Console.WriteLine($"[{string.Join(", ", FizzBuzz(15))}]");
-  }
 }
 
 

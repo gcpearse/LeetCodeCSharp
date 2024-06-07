@@ -25,16 +25,6 @@ public class Solution
 
     return - 1;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(FirstUniqChar("leetcode"));
-    // 0
-    Console.WriteLine(FirstUniqChar("loveleetcode"));
-    // 2
-    Console.WriteLine(FirstUniqChar("aabb"));
-    // -1
-  }
 }
 
 

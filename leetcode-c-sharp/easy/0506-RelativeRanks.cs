@@ -40,14 +40,6 @@ public class Solution
 
     return [.. result];
   }
-
-  public static void Test()
-  {
-    Console.WriteLine($"[{string.Join(", ", FindRelativeRanks([5, 4, 3, 2, 1]))}]");
-    // ["Gold Medal", "Silver Medal", "Bronze Medal", "4", "5"]
-    Console.WriteLine($"[{string.Join(", ", FindRelativeRanks([10, 3, 8, 9, 4]))}]");
-    // ["Gold Medal", "5", "Bronze Medal", "Silver Medal", "4"]
-  }
 }
 
 

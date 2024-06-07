@@ -6,14 +6,6 @@ public class Solution
   {
     return haystack.IndexOf(needle);
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(StrStr("sadbutsad", "sad"));
-    // 0
-    Console.WriteLine(StrStr("leetcode", "leeto"));
-    // -1
-  }
 }
 
 

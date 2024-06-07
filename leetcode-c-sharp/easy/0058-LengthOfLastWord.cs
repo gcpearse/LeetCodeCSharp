@@ -21,16 +21,6 @@ public class Solution
 
     return count;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(LengthOfLastWord("Hello World"));
-    // 5
-    Console.WriteLine(LengthOfLastWord("   fly me   to   the moon  "));
-    // 4
-    Console.WriteLine(LengthOfLastWord("luffy is still joyboy"));
-    // 6
-  }
 }
 
 

@@ -6,14 +6,6 @@ public class Solution
   {
     return !s.Contains("LLL") && s.Count(c => c == 'A') <= 1;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(CheckRecord("PPALLP"));
-    // True
-    Console.WriteLine(CheckRecord("PPALLL"));
-    // False
-  }
 }
 
 

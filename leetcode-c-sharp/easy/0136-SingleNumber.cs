@@ -16,16 +16,6 @@ public class Solution
 
     return result[0];
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(SingleNumber([2, 2, 1]));
-    // 1
-    Console.WriteLine(SingleNumber([4, 1, 2, 1, 2]));
-    // 4
-    Console.WriteLine(SingleNumber([1]));
-    // 1
-  }
 }
 
 

@@ -30,20 +30,6 @@ public class Solution
 
     return true;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(IsPalindrome("A man, a plan, a canal: Panama"));
-    // True
-    Console.WriteLine(IsPalindrome("race a car"));
-    // False
-    Console.WriteLine(IsPalindrome(" "));
-    // True
-    Console.WriteLine(IsPalindrome(".,"));
-    // True
-    Console.WriteLine(IsPalindrome("aa"));
-    // True
-  }
 }
 
 

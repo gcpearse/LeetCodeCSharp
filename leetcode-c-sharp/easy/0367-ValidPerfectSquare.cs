@@ -28,14 +28,6 @@ public class Solution
 
     return false;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(IsPerfectSquare(16));
-    // True
-    Console.WriteLine(IsPerfectSquare(14));
-    // False
-  }
 }
 
 

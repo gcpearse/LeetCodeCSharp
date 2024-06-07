@@ -14,16 +14,6 @@ public class Solution
 
     return false;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(IsPowerOfThree(27));
-    // True
-    Console.WriteLine(IsPowerOfThree(0));
-    // False
-    Console.WriteLine(IsPowerOfThree(-1));
-    // False
-  }
 }
 
 

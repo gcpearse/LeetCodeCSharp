@@ -28,18 +28,6 @@ public class Solution
 
     return true;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(WordPattern("abba", "dog cat cat dog"));
-    // True
-    Console.WriteLine(WordPattern("abba", "dog cat cat fish"));
-    // False
-    Console.WriteLine(WordPattern("aaaa", "dog cat cat dog"));
-    // False
-    Console.WriteLine(WordPattern("abba", "dog dog dog dog"));
-    // False
-  }
 }
 
 

@@ -9,16 +9,6 @@ public class Solution
 
     return limit < candySet.Count ? limit : candySet.Count;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(DistributeCandies([1, 1, 2, 2, 3, 3]));
-    // 3
-    Console.WriteLine(DistributeCandies([1, 1, 2, 3]));
-    // 2
-    Console.WriteLine(DistributeCandies([6, 6, 6, 6]));
-    // 1
-  }
 }
 
 

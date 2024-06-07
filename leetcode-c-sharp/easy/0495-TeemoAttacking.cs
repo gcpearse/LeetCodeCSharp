@@ -20,14 +20,6 @@ public class Solution
 
     return count + duration;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(FindPoisonedDuration([1, 4], 2));
-    // 4
-    Console.WriteLine(FindPoisonedDuration([1, 2], 2));
-    // 3
-  }
 }
 
 

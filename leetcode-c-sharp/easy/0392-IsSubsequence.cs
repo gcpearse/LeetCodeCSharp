@@ -24,18 +24,6 @@ public class Solution
 
     return count == 0;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(IsSubsequence("abc", "ahbgdc"));
-    // True
-    Console.WriteLine(IsSubsequence("axc", "ahbgdc"));
-    // False
-    Console.WriteLine(IsSubsequence("acb", "ahbgdc"));
-    // False
-    Console.WriteLine(IsSubsequence("b", "abc"));
-    // True
-  }
 }
 
 

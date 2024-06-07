@@ -36,16 +36,6 @@ public class Solution
 
     return result;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(RomanToInt("III"));
-    // 3
-    Console.WriteLine(RomanToInt("LVIII"));
-    // 58
-    Console.WriteLine(RomanToInt("MCMXCIV"));
-    // 1994
-  }
 }
 
 

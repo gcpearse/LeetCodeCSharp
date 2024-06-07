@@ -6,16 +6,6 @@ public class Solution
   {
     return nums.Length != new HashSet<int>(nums).Count;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(ContainsDuplicate([1, 2, 3, 1]));
-    // True
-    Console.WriteLine(ContainsDuplicate([1, 2, 3, 4]));
-    // False
-    Console.WriteLine(ContainsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]));
-    // True
-  }
 }
 
 

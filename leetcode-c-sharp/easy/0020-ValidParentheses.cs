@@ -31,18 +31,6 @@ public class Solution
 
     return stack.Count == 0;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(IsValid("()"));
-    // True
-    Console.WriteLine(IsValid("()[]{}"));
-    // True
-    Console.WriteLine(IsValid("(]"));
-    // False
-    Console.WriteLine(IsValid("(])"));
-    // False
-  }
 }
 
 

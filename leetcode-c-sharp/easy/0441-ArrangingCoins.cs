@@ -14,16 +14,6 @@ public class Solution
 
     return row - 1;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(ArrangeCoins(5));
-    // 2
-    Console.WriteLine(ArrangeCoins(8));
-    // 3
-    Console.WriteLine(ArrangeCoins(1));
-    // 1
-  }
 }
 
 

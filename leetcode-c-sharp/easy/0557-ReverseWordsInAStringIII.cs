@@ -16,14 +16,6 @@ public class Solution
 
     return string.Join(' ', [.. reversed]);
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(ReverseWords("Let's take LeetCode contest"));
-    // s'teL ekat edoCteeL tsetnoc
-    Console.WriteLine(ReverseWords("Mr Ding"));
-    // rM gniD
-  }
 }
 
 

@@ -22,22 +22,6 @@ public class Solution
 
     return commonPrefix;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(LongestCommonPrefix([
-      "flower",
-      "flow",
-      "flight"
-    ]));
-    // "fl"
-    Console.WriteLine(LongestCommonPrefix([
-      "dog",
-      "racecar",
-      "car"
-    ]));
-    // ""
-  }
 }
 
 

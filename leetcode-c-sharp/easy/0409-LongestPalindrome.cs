@@ -36,14 +36,6 @@ public class Solution
 
     return hasOdds ? result + 1 : result;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(LongestPalindrome("abccccdd"));
-    // 7
-    Console.WriteLine(LongestPalindrome("a"));
-    // 1
-  }
 }
 
 

@@ -18,16 +18,6 @@ public class Solution
 
     return result;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(MissingNumber([3, 0, 1]));
-    // 2
-    Console.WriteLine(MissingNumber([0, 1]));
-    // 2
-    Console.WriteLine(MissingNumber([9, 6, 4, 2, 3, 5, 7, 0, 1]));
-    // 8
-  }
 }
 
 

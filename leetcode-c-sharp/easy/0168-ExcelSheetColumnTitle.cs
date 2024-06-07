@@ -26,16 +26,6 @@ public class Solution
 
     return result;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(ConvertToTitle(1));
-    // A
-    Console.WriteLine(ConvertToTitle(28));
-    // AB
-    Console.WriteLine(ConvertToTitle(701));
-    // ZY
-  }
 }
 
 

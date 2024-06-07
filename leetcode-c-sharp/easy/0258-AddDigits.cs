@@ -16,14 +16,6 @@ public class Solution
 
     return AddDigits(subtotal);
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(AddDigits(38));
-    // 2
-    Console.WriteLine(AddDigits(0));
-    // 0
-  }
 }
 
 

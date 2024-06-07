@@ -14,18 +14,6 @@ public class Solution
 
     return false;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(IsPowerOfTwo(1));
-    // True
-    Console.WriteLine(IsPowerOfTwo(8));
-    // True
-    Console.WriteLine(IsPowerOfTwo(16));
-    // True
-    Console.WriteLine(IsPowerOfTwo(3));
-    // False
-  }
 }
 
 

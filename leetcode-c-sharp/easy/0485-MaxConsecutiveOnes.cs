@@ -23,14 +23,6 @@ public class Solution
 
     return max;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(FindMaxConsecutiveOnes([1, 1, 0, 1, 1, 1]));
-    // 3
-    Console.WriteLine(FindMaxConsecutiveOnes([1, 0, 1, 1, 0, 1]));
-    // 2
-  }
 }
 
 

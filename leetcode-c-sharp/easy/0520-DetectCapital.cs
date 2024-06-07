@@ -10,14 +10,6 @@ public class Solution
 
     return false;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(DetectCapitalUse("USA"));
-    // True
-    Console.WriteLine(DetectCapitalUse("FlaG"));
-    // False
-  }
 }
 
 

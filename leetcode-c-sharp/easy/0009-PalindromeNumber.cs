@@ -19,16 +19,6 @@ public class Solution
 
     return true;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(IsPalindrome(121));
-    // True
-    Console.WriteLine(IsPalindrome(-121));
-    // False
-    Console.WriteLine(IsPalindrome(10));
-    // False
-  }
 }
 
 

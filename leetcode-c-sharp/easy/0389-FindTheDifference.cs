@@ -18,14 +18,6 @@ public class Solution
 
     return Convert.ToChar(code);
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(FindTheDifference("abcd", "abcde"));
-    // e
-    Console.WriteLine(FindTheDifference("", "y"));
-    // y
-  }
 }
 
 

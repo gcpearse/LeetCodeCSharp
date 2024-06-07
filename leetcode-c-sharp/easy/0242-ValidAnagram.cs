@@ -14,16 +14,6 @@ public class Solution
 
     return new string(sChars) == new string(tChars);
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(IsAnagram("anagram", "nagaram"));
-    // True
-    Console.WriteLine(IsAnagram("rat", "car"));
-    // False
-    Console.WriteLine(IsAnagram("ac", "bb"));
-    // False
-  }
 }
 
 

@@ -35,14 +35,6 @@ public class Solution
 
     return result;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(ReverseVowels("hello"));
-    // holle
-    Console.WriteLine(ReverseVowels("leetcode"));
-    // leotcede
-  }
 }
 
 

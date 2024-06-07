@@ -20,16 +20,6 @@ public class Solution
 
     return result;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(SearchInsert([1, 3, 5, 6], 5));
-    // 2
-    Console.WriteLine(SearchInsert([1, 3, 5, 6], 2));
-    // 1
-    Console.WriteLine(SearchInsert([1, 3, 5, 6], 7));
-    // 4
-  }
 }
 
 

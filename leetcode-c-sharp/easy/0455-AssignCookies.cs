@@ -24,14 +24,6 @@ public class Solution
 
     return i;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(FindContentChildren([1, 2, 3], [1, 1]));
-    // 1
-    Console.WriteLine(FindContentChildren([1, 2], [1, 2, 3]));
-    // 2
-  }
 }
 
 

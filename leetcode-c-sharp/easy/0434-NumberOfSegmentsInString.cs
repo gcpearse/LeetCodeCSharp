@@ -17,20 +17,6 @@ public class Solution
 
     return count;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(CountSegments("Hello, my name is John"));
-    // 5
-    Console.WriteLine(CountSegments("Hello"));
-    // 1
-    Console.WriteLine(CountSegments(""));
-    // 0
-    Console.WriteLine(CountSegments("Of all the gin joints in all the towns in all the world,   "));
-    // 13
-    Console.WriteLine(CountSegments(", , , ,        a, eaefa"));
-    // 6
-  }
 }
 
 

@@ -15,16 +15,6 @@ public class Solution
 
     return result;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(TitleToNumber("A"));
-    // 1
-    Console.WriteLine(TitleToNumber("AB"));
-    // 28
-    Console.WriteLine(TitleToNumber("ZY"));
-    // 701
-  }
 }
 
 

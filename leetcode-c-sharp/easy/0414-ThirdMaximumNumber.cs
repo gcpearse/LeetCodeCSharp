@@ -18,16 +18,6 @@ public class Solution
 
     return uniques.Count > 2 ? uniques[^3] : uniques[^1];
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(ThirdMax([3, 2, 1]));
-    // 1
-    Console.WriteLine(ThirdMax([1, 2]));
-    // 2
-    Console.WriteLine(ThirdMax([2, 2, 3, 1]));
-    // 1
-  }
 }
 
 

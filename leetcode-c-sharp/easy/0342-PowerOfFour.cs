@@ -14,16 +14,6 @@ public class Solution
 
     return false;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(IsPowerOfFour(16));
-    // True
-    Console.WriteLine(IsPowerOfFour(5));
-    // False
-    Console.WriteLine(IsPowerOfFour(1));
-    // true
-  }
 }
 
 

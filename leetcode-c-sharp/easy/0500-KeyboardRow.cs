@@ -27,16 +27,6 @@ public class Solution
 
     return [.. result];
   }
-
-  public static void Test()
-  {
-    Console.WriteLine($"[{string.Join(", ", FindWords(["Hello", "Alaska", "Dad", "Peace"]))}]");
-    // ["Alaska", "Dad"]
-    Console.WriteLine($"[{string.Join(", ", FindWords(["omk"]))}]");
-    // []
-    Console.WriteLine($"[{string.Join(", ", FindWords(["adsdf", "sfd"]))}]");
-    // ["adsdf", "sfd"]
-  }
 }
 
 

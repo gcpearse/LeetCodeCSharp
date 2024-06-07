@@ -13,18 +13,6 @@ public class Solution
 
     return chars.Count == 0;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine(CanConstruct("a", "b"));
-    // False
-    Console.WriteLine(CanConstruct("aa", "ab"));
-    // False
-    Console.WriteLine(CanConstruct("aa", "aab"));
-    // True
-    Console.WriteLine(CanConstruct("bg", "efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj"));
-    // True
-  }
 }
 
 

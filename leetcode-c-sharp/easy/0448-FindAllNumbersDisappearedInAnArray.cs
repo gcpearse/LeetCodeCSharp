@@ -13,14 +13,6 @@ public class Solution
 
     return result;
   }
-
-  public static void Test()
-  {
-    Console.WriteLine($"[{string.Join(", ", FindDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]))}]");
-    // [5, 6]
-    Console.WriteLine($"[{string.Join(", ", FindDisappearedNumbers([1, 1]))}]");
-    // [2]
-  }
 }
 
 
