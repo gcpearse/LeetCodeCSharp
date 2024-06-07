@@ -219,4 +219,90 @@ public class Tests
     Assert.True(ValidPerfectSquare.Solution.IsPerfectSquare(16));
     Assert.False(ValidPerfectSquare.Solution.IsPerfectSquare(14));
   }
+
+  [Fact]
+  public void CanConstructTest()
+  {
+    Assert.False(RansomNote.Solution.CanConstruct("a", "b"));
+    Assert.False(RansomNote.Solution.CanConstruct("aa", "ab"));
+    Assert.True(RansomNote.Solution.CanConstruct("aa", "aab"));
+    Assert.True(RansomNote.Solution.CanConstruct("bg", "efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj"));
+  }
+
+  [Fact]
+  public void FirstUniqCharTest()
+  {
+    Assert.Equal(0, FirstUniqueCharacterInString.Solution.FirstUniqChar("leetcode"));
+    Assert.Equal(2, FirstUniqueCharacterInString.Solution.FirstUniqChar("loveleetcode"));
+    Assert.Equal(-1, FirstUniqueCharacterInString.Solution.FirstUniqChar("aabb"));
+  }
+
+  [Fact]
+  public void FindTheDifferenceTest()
+  {
+    Assert.Equal('e', FindTheDifference.Solution.FindTheDifference("abcd", "abcde"));
+    Assert.Equal('y', FindTheDifference.Solution.FindTheDifference("", "y"));
+  }
+
+  [Fact]
+  public void IsSubsequenceTest()
+  {
+    Assert.True(IsSubsequence.Solution.IsSubsequence("abc", "ahbgdc"));
+    Assert.False(IsSubsequence.Solution.IsSubsequence("axc", "ahbgdc"));
+    Assert.False(IsSubsequence.Solution.IsSubsequence("acb", "ahbgdc"));
+    Assert.True(IsSubsequence.Solution.IsSubsequence("b", "abc"));
+  }
+
+  [Fact]
+  public void LongestPalindromeTest()
+  {
+    Assert.Equal(7, LongestPalindrome.Solution.LongestPalindrome("abccccdd"));
+    Assert.Equal(1, LongestPalindrome.Solution.LongestPalindrome("a"));
+  }
+
+  [Fact]
+  public void FizzBuzzTest()
+  {
+    Assert.Equal(["1", "2", "Fizz"], FizzBuzz.Solution.FizzBuzz(3));
+    Assert.Equal(["1", "2", "Fizz", "4", "Buzz"], FizzBuzz.Solution.FizzBuzz(5));
+    Assert.Equal(["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"], FizzBuzz.Solution.FizzBuzz(15));
+  }
+
+  [Fact]
+  public void ThirdMaxTest()
+  {
+    Assert.Equal(1, ThirdMaximumNumber.Solution.ThirdMax([3, 2, 1]));
+    Assert.Equal(2, ThirdMaximumNumber.Solution.ThirdMax([1, 2]));
+    Assert.Equal(1, ThirdMaximumNumber.Solution.ThirdMax([2, 2, 3, 1]));
+  }
+
+  [Fact]
+  public void CountSegmentsTest()
+  {
+    Assert.Equal(5, NumberOfSegmentsInString.Solution.CountSegments("Hello, my name is John"));
+    Assert.Equal(1, NumberOfSegmentsInString.Solution.CountSegments("Hello"));
+    Assert.Equal(0, NumberOfSegmentsInString.Solution.CountSegments(""));
+  }
+
+  [Fact]
+  public void ArrangeCoinsTest()
+  {
+    Assert.Equal(2, ArrangingCoins.Solution.ArrangeCoins(5));
+    Assert.Equal(3, ArrangingCoins.Solution.ArrangeCoins(8));
+    Assert.Equal(1, ArrangingCoins.Solution.ArrangeCoins(1));
+  }
+
+  [Fact]
+  public void FindDisappearedNumbersTest()
+  {
+    Assert.Equal([5, 6], FindAllNumbersDisappearedInAnArray.Solution.FindDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]));
+    Assert.Equal([2], FindAllNumbersDisappearedInAnArray.Solution.FindDisappearedNumbers([1, 1]));
+  }
+
+  [Fact]
+  public void FindContentChildrenTest()
+  {
+    Assert.Equal(1, AssignCookies.Solution.FindContentChildren([1, 2, 3], [1, 1]));
+    Assert.Equal(2, AssignCookies.Solution.FindContentChildren([1, 2], [1, 2, 3]));
+  }
 }
