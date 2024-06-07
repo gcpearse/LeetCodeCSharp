@@ -141,4 +141,82 @@ public class Tests
     Assert.False(ContainsDuplicate.Solution.ContainsDuplicate([1, 2, 3, 4]));
     Assert.True(ContainsDuplicate.Solution.ContainsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]));
   }
+
+  [Fact]
+  public void IsPowerOfTwoTest()
+  {
+    Assert.True(IsPowerOfTwo.Solution.IsPowerOfTwo(1));
+    Assert.True(IsPowerOfTwo.Solution.IsPowerOfTwo(8));
+    Assert.True(IsPowerOfTwo.Solution.IsPowerOfTwo(16));
+    Assert.False(IsPowerOfTwo.Solution.IsPowerOfTwo(3));
+  }
+
+  [Fact]
+  public void IsAnagramTest()
+  {
+    Assert.True(ValidAnagram.Solution.IsAnagram("anagram", "nagaram"));
+    Assert.False(ValidAnagram.Solution.IsAnagram("rat", "car"));
+    Assert.False(ValidAnagram.Solution.IsAnagram("ac", "bb"));
+  }
+
+  [Fact]
+  public void AddDigitsTest()
+  {
+    Assert.Equal(2, AddDigits.Solution.AddDigits(38));
+    Assert.Equal(0, AddDigits.Solution.AddDigits(0));
+  }
+
+  [Fact]
+  public void MissingNumberTest()
+  {
+    Assert.Equal(2, MissingNumber.Solution.MissingNumber([3, 0, 1]));
+    Assert.Equal(2, MissingNumber.Solution.MissingNumber([0, 1]));
+    Assert.Equal(8, MissingNumber.Solution.MissingNumber([9, 6, 4, 2, 3, 5, 7, 0, 1]));
+  }
+
+  [Fact]
+  public void WordPatternTest()
+  {
+    Assert.True(WordPattern.Solution.WordPattern("abba", "dog cat cat dog"));
+    Assert.False(WordPattern.Solution.WordPattern("abba", "dog cat cat fish"));
+    Assert.False(WordPattern.Solution.WordPattern("aaaa", "dog cat cat dog"));
+    Assert.False(WordPattern.Solution.WordPattern("abba", "dog dog dog dog"));
+  }
+
+  [Fact]
+  public void IsPowerOfThreeTest()
+  {
+    Assert.True(PowerOfThree.Solution.IsPowerOfThree(27));
+    Assert.False(PowerOfThree.Solution.IsPowerOfThree(0));
+    Assert.False(PowerOfThree.Solution.IsPowerOfThree(-1));
+  }
+
+  [Fact]
+  public void IsPowerOfFourTest()
+  {
+    Assert.True(PowerOfFour.Solution.IsPowerOfFour(16));
+    Assert.False(PowerOfFour.Solution.IsPowerOfFour(5));
+    Assert.True(PowerOfFour.Solution.IsPowerOfFour(1));
+  }
+
+  [Fact]
+  public void ReverseVowelsTest()
+  {
+    Assert.Equal("holle", ReverseVowelsOfString.Solution.ReverseVowels("hello"));
+    Assert.Equal("leotcede", ReverseVowelsOfString.Solution.ReverseVowels("leetcode"));
+  }
+
+  [Fact]
+  public void IntersectionTest()
+  {
+    Assert.Equal([2], IntersectionOfTwoArrays.Solution.Intersection([1, 2, 2, 1], [2, 2]));
+    Assert.Equal([4, 9], IntersectionOfTwoArrays.Solution.Intersection([4, 9, 5], [9, 4, 9, 8, 4]));
+  }
+
+  [Fact]
+  public void IsPerfectSquareTest()
+  {
+    Assert.True(ValidPerfectSquare.Solution.IsPerfectSquare(16));
+    Assert.False(ValidPerfectSquare.Solution.IsPerfectSquare(14));
+  }
 }
