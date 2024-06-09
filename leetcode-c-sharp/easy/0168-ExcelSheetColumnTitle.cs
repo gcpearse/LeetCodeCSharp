@@ -14,13 +14,14 @@ public class Solution
 
       if (remainder > 0)
       {
-        result = Convert.ToChar(remainder + 64) + result;
+        result = (char)(remainder + 64) + result;
         current /= 26;
       }
       else
       {
         result = 'Z' + result;
-        current = current / 26 - 1;
+        current /= 26;
+        current--;
       }
     }
 
