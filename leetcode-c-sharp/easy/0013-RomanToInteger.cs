@@ -19,13 +19,15 @@ public class Solution
 
     for (int i = 0; i < s.Length - 1; i++)
     {
-      if (romanValues[s[i]] < romanValues[s[i + 1]])
+      int current = romanValues[s[i]];
+
+      if (current < romanValues[s[i + 1]])
       {
-        result -= romanValues[s[i]];
+        result -= current;
       }
       else
       {
-        result += romanValues[s[i]];
+        result += current;
       }
     }
 
