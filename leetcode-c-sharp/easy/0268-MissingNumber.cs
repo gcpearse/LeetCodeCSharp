@@ -9,11 +9,7 @@ public class Solution
     for (int i = 0; i <= nums.Length; i++)
     {
       result += i;
-    }
-
-    foreach (int num in nums)
-    {
-      result -= num;
+      if (i != nums.Length) result -= nums[i];
     }
 
     return result;
