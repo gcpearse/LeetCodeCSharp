@@ -17,13 +17,8 @@ public class Solution
 
     int result = 0;
 
-    for (int i = 0; i < s.Length; i++)
+    for (int i = 0; i < s.Length - 1; i++)
     {
-      if (i == s.Length - 1)
-      {
-        result += romanValues[s[i]];
-        break;
-      }
       if (romanValues[s[i]] < romanValues[s[i + 1]])
       {
         result -= romanValues[s[i]];
@@ -34,7 +29,7 @@ public class Solution
       }
     }
 
-    return result;
+    return result + romanValues[s[^1]];
   }
 }
 
