@@ -4,17 +4,7 @@ public class Solution
 {
   public static int SingleNumber(int[] nums)
   {
-    List<int> result = [];
-
-    foreach (int num in nums)
-    {
-      if (!result.Remove(num))
-      {
-        result.Add(num);
-      }
-    }
-
-    return result[0];
+    return new HashSet<int>(nums).Sum() * 2 - nums.Sum();
   }
 }
 
