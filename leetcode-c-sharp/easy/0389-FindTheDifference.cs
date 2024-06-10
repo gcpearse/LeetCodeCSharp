@@ -16,7 +16,7 @@ public class Solution
       code += c;
     }
 
-    return Convert.ToChar(code);
+    return (char)code;
   }
 }
 
