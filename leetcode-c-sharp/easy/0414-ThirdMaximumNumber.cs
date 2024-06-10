@@ -4,19 +4,11 @@ public class Solution
 {
   public static int ThirdMax(int[] nums)
   {
-    List<int> uniques = [];
+    SortedSet<int> set = new(nums);
 
-    foreach (int num in nums)
-    {
-      if (!uniques.Contains(num))
-      {
-        uniques.Add(num);
-      }
-    }
+    int[] array = [.. set];
 
-    uniques.Sort();
-
-    return uniques.Count > 2 ? uniques[^3] : uniques[^1];
+    return array.Length > 2 ? array[^3] : array[^1];
   }
 }
 
