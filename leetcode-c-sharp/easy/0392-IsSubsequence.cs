@@ -14,11 +14,7 @@ public class Solution
       if (t[i] == s[index])
       {
         count--;
-        
-        if (index + 1 < s.Length)
-        {
-          index++;
-        }
+        if (index + 1 < s.Length) index++;
       }
     }
 
