@@ -5,17 +5,14 @@ public class Solution
   public static string ReverseVowels(string s)
   {
     char[] vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
-    
+
     List<char> reversedVowels = [];
 
     string result = "";
 
-    for (int i = s.Length - 1; i >= 0 ; i--)
+    for (int i = s.Length - 1; i >= 0; i--)
     {
-      if (vowels.Contains(s[i]))
-      {
-        reversedVowels.Add(s[i]);
-      }
+      if (vowels.Contains(s[i])) reversedVowels.Add(s[i]);
     }
 
     int index = 0;
