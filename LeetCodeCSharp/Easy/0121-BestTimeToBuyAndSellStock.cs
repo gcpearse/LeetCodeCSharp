@@ -1,6 +1,6 @@
-namespace BestTimeToBuyAndSellStock;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class BestTimeToBuyAndSellStockSolution
 {
   public static int MaxProfit(int[] prices)
   {

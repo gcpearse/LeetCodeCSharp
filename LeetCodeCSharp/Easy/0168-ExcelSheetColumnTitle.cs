@@ -1,6 +1,6 @@
-namespace ExcelSheetColumnTitle;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class ExcelSheetColumnTitleSolution
 {
   public static string ConvertToTitle(int columnNumber)
   {

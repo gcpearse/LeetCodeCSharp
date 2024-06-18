@@ -1,6 +1,6 @@
-namespace RomanToInteger;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class RomanToIntegerSolution
 {
   public static int RomanToInt(string s)
   {

@@ -1,6 +1,6 @@
-namespace LicenseKeyFormatting;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class LicenseKeyFormattingSolution
 {
   public static string LicenseKeyFormatting(string s, int k)
   {

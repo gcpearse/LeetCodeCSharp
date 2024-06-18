@@ -1,6 +1,6 @@
-namespace RelativeRanks;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class RelativeRanksSolution
 {
   public static string[] FindRelativeRanks(int[] score)
   {

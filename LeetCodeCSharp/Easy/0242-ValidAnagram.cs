@@ -1,6 +1,6 @@
-namespace ValidAnagram;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class ValidAnagramSolution
 {
   public static bool IsAnagram(string s, string t)
   {

@@ -1,6 +1,6 @@
-namespace ArrangingCoins;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class ArrangingCoinsSolution
 {
   public static int ArrangeCoins(int n)
   {

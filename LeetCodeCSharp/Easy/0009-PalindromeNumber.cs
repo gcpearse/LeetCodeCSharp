@@ -1,6 +1,6 @@
-namespace PalindromeNumber;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class PalindromeNumberSolution
 {
   public static bool IsPalindrome(int x)
   {

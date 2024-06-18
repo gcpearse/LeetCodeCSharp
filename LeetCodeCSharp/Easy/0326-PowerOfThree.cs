@@ -1,6 +1,6 @@
-namespace PowerOfThree;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class PowerOfThreeSolution
 {
   public static bool IsPowerOfThree(int n)
   {

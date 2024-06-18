@@ -1,6 +1,6 @@
-namespace PowerOfFour;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class PowerOfFourSolution
 {
   public static bool IsPowerOfFour(int n)
   {

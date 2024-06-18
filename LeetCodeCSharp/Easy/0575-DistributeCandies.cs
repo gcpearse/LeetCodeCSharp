@@ -1,6 +1,6 @@
-namespace DistributeCandies;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class DistributeCandiesSolution
 {
   public static int DistributeCandies(int[] candyType)
   {

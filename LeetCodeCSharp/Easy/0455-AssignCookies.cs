@@ -1,6 +1,6 @@
-namespace AssignCookies;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class AssignCookiesSolution
 {
   public static int FindContentChildren(int[] g, int[] s)
   {

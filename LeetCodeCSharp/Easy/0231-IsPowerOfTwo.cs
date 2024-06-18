@@ -1,6 +1,6 @@
-namespace IsPowerOfTwo;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class IsPowerOfTwoSolution
 {
   public static bool IsPowerOfTwo(int n)
   {

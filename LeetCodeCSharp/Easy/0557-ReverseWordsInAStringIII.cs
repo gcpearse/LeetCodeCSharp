@@ -1,6 +1,6 @@
-namespace ReverseWordsInAStringIII;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class ReverseWordsInAStringIIISolution
 {
   public static string ReverseWords(string s)
   {

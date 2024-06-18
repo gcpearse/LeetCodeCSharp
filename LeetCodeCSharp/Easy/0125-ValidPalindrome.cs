@@ -1,6 +1,6 @@
-namespace ValidPalindrome;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class ValidPalindromeSolution
 {
   public static bool IsPalindrome(string s)
   {

@@ -1,6 +1,6 @@
-namespace KeyboardRow;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class KeyboardRowSolution
 {
   public static string[] FindWords(string[] words)
   {

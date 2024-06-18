@@ -1,6 +1,6 @@
-namespace ThirdMaximumNumber;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class ThirdMaximumNumberSolution
 {
   public static int ThirdMax(int[] nums)
   {

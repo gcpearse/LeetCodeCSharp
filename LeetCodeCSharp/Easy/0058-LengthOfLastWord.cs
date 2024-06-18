@@ -1,6 +1,6 @@
-namespace LengthOfLastWord;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class LengthOfLastWordSolution
 {
   public static int LengthOfLastWord(string s)
   {

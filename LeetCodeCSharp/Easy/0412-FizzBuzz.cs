@@ -1,6 +1,6 @@
-namespace FizzBuzz;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class FizzBuzzSolution
 {
   public static IList<string> FizzBuzz(int n)
   {

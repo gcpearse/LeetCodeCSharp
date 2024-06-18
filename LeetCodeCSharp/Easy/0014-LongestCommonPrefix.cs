@@ -1,6 +1,6 @@
-namespace LongestCommonPrefix;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class LongestCommonPrefixSolution
 {
   public static string LongestCommonPrefix(string[] strs)
   {

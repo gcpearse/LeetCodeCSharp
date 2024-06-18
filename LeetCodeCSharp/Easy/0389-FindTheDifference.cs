@@ -1,6 +1,6 @@
-namespace FindTheDifference;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class FindTheDifferenceSolution
 {
   public static char FindTheDifference(string s, string t)
   {

@@ -1,6 +1,6 @@
-namespace ValidPerfectSquare;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class ValidPerfectSquareSolution
 {
   public static bool IsPerfectSquare(int num)
   {

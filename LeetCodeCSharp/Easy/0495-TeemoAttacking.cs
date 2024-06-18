@@ -1,6 +1,6 @@
-namespace TeemoAttacking;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class TeemoAttackingSolution
 {
   public static int FindPoisonedDuration(int[] timeSeries, int duration)
   {

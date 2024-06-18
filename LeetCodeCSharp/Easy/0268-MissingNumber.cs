@@ -1,6 +1,6 @@
-namespace MissingNumber;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class MissingNumberSolution
 {
   public static int MissingNumber(int[] nums)
   {

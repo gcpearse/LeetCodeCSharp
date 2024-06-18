@@ -1,6 +1,6 @@
-namespace ValidParentheses;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class ValidParenthesesSolution
 {
   public static bool IsValid(string s)
   {

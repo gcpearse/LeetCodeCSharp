@@ -1,6 +1,6 @@
-namespace AddDigits;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class AddDigitsSolution
 {
   public static int AddDigits(int num)
   {

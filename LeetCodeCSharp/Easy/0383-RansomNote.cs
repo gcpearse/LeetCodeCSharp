@@ -1,6 +1,6 @@
-namespace RansomNote;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class RansomNoteSolution
 {
   public static bool CanConstruct(string ransomNote, string magazine)
   {

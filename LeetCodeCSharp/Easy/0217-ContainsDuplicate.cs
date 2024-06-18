@@ -1,6 +1,6 @@
-namespace ContainsDuplicate;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class ContainsDuplicateSolution
 {
   public static bool ContainsDuplicate(int[] nums)
   {

@@ -1,6 +1,6 @@
-namespace FirstUniqueCharacterInString;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class FirstUniqueCharacterInStringSolution
 {
   public static int FirstUniqChar(string s)
   {

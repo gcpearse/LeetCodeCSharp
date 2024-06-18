@@ -1,6 +1,6 @@
-namespace NumberOfSegmentsInString;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class NumberOfSegmentsInStringSolution
 {
   public static int CountSegments(string s)
   {

@@ -1,6 +1,6 @@
-namespace WordPattern;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class WordPatternSolution
 {
   public static bool WordPattern(string pattern, string s)
   {

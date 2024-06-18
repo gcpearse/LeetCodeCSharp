@@ -1,6 +1,6 @@
-namespace FindFirstOccurrence;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class FindFirstOccurrenceSolution
 {
   public static int StrStr(string haystack, string needle)
   {

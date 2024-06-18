@@ -1,6 +1,6 @@
-namespace PlusOne;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class PlusOneSolution
 {
   public static int[] PlusOne(int[] digits)
   {

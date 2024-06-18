@@ -1,6 +1,6 @@
-namespace FindAllNumbersDisappearedInAnArray;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class FindAllNumbersDisappearedInAnArraySolution
 {
   public static IList<int> FindDisappearedNumbers(int[] nums)
   {

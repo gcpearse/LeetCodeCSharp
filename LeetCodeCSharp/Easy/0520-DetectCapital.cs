@@ -1,6 +1,6 @@
-namespace DetectCapital;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class DetectCapitalSolution
 {
   public static bool DetectCapitalUse(string word)
   {

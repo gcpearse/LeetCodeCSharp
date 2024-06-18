@@ -1,6 +1,6 @@
-namespace StudentAttendanceRecordI;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class StudentAttendanceRecordISolution
 {
   public static bool CheckRecord(string s)
   {

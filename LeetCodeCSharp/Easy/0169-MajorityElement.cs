@@ -1,6 +1,6 @@
-namespace MajorityElement;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class MajorityElementSolution
 {
   public static int MajorityElement(int[] nums)
   {

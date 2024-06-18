@@ -1,6 +1,6 @@
-namespace LongestPalindrome;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class LongestPalindromeSolution
 {
   public static int LongestPalindrome(string s)
   {

@@ -1,6 +1,6 @@
-namespace IntersectionOfTwoArrays;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class IntersectionOfTwoArraysSolution
 {
   public static int[] Intersection(int[] nums1, int[] nums2)
   {

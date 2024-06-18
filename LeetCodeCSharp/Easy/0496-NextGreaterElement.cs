@@ -1,6 +1,6 @@
-namespace NextGreaterElement;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class NextGreaterElementSolution
 {
   public static int[] NextGreaterElement(int[] nums1, int[] nums2)
   {

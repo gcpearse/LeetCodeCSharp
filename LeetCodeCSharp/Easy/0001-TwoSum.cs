@@ -1,6 +1,6 @@
-namespace TwoSum;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class TwoSumSolution
 {
   public static int[] TwoSum(int[] nums, int target)
   {

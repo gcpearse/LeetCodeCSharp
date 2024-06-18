@@ -1,6 +1,6 @@
-namespace IsSubsequence;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class IsSubsequenceSolution
 {
   public static bool IsSubsequence(string s, string t)
   {

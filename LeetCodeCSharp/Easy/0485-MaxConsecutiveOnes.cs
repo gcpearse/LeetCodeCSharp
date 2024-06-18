@@ -1,6 +1,6 @@
-namespace MaxConsecutiveOnes;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class MaxConsecutiveOnesSolution
 {
   public static int FindMaxConsecutiveOnes(int[] nums)
   {

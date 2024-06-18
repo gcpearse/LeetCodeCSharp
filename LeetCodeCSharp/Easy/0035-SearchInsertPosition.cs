@@ -1,6 +1,6 @@
-namespace SearchInsertPosition;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class SearchInsertPositionSolution
 {
   public static int SearchInsert(int[] nums, int target)
   {

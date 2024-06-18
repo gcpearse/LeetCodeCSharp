@@ -1,6 +1,6 @@
-namespace SingleNumber;
+namespace LeetCodeCSharp.Easy;
 
-public class Solution
+public class SingleNumberSolution
 {
   public static int SingleNumber(int[] nums)
   {
