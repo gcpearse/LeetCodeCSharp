@@ -1,6 +1,6 @@
-namespace EasyTests;
+namespace LeetCodeCSharpTests;
 
-public class Tests
+public class EasyTests
 {
   [Fact]
   public void TwoSumTest()
