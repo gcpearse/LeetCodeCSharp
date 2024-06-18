@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>leetcode_c_sharp_tests</RootNamespace>
+    <RootNamespace>LeetCodeCSharpTests</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\leetcode-c-sharp\leetcode-c-sharp.csproj" />
+    <ProjectReference Include="../LeetCodeCSharp/LeetCodeCSharp.csproj" />
   </ItemGroup>
 
 </Project>
